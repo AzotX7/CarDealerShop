@@ -18,7 +18,7 @@ public class GermanCarFactory {
 
             String url = "jdbc:postgresql://localhost:5432/Carlist";
             String username = "postgres";
-            String password = "Azatuzx7c";
+            String password = "...";
             connection = DriverManager.getConnection(url,username,password);
         }
         catch (ClassNotFoundException | SQLException e){
